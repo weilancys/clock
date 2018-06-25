@@ -7,7 +7,6 @@ class App(tk.Tk):
         super(App, self).__init__()
         self.initUI()
         
-
     def initUI(self):
         self.title("clock")
         self.minsize(200, 80)
